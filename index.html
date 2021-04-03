@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React Js </title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+
+    <div id="app"></div>
+
+    <script type="text/babel">
+        const name ="react"; 
+        const ele = <p class="title"> hello {name} </p>; 
+       
+      
+        
+        
+        
+     
+        ReactDOM.render(ele, document.getElementById('app'));
+
+       
+
+        
+    </script>
+
+<style>
+    
+    .title {
+    margin: 0;
+    padding:0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size:700%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family:Trattatello, fantasy ;
+    
+   
+}
+body {
+    background-color: #FFE4C4 ;
+}
+    
+
+</style>
+    
+
+</body>
+
+</html>
