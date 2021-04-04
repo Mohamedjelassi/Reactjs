@@ -1,0 +1,38 @@
+body { 
+  background-color: #A8D0E6;
+}
+.home { 
+  text-align: center;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 8%;
+ }
+ 
+ .hm {
+  background-color: #24305E;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 3%;
+}
+.text {
+  
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #f8E9A1;
+}
+hr { 
+  border: 1px solid #F76C6C;
+}
